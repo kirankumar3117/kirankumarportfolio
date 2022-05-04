@@ -89,6 +89,9 @@
     #about{
         height:70vh;
     }
+    .about__line{
+        display:none;
+    }
     
 }
 

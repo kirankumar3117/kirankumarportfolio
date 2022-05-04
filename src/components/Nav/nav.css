@@ -1,5 +1,5 @@
 nav {
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(12, 12, 12, 0.3);
     width: max-content;
     display: block;
     padding: 0.5rem 1.7rem;
@@ -19,7 +19,7 @@ nav a{
     padding: 0.9rem;
     border-radius: 50%;
     display: flex;
-    color: var(--color-light);
+    color: rgb(122, 115, 115);
     font-size: 1.9rem;
 }
 

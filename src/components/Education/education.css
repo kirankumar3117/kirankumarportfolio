@@ -1,0 +1,109 @@
+ .education {
+background: var(--color-bg2);
+height:80vh;
+margin-top:-2rem;
+width:100%;
+}
+
+.education__container{
+    width:100%;
+    margin-left:5%;
+    position: absolute;
+    top:86rem;
+
+}
+.education__top{
+ font-size: 50px;
+ font-weight: bold;
+ color:var(--color-bg1);
+ text-align:left;
+ }
+
+.after__grid{
+    width:60%;
+    height:120px;
+   margin-top:1rem;
+   display: flex;
+   color:var(--color-bg1);
+   background:rgba(211, 149, 149, 0.4);
+   border-radius: 0.6rem;;
+}
+.education__image{
+    width:12%;
+    height:70%;
+    background:var(--color-bg1);
+    border-radius: 50%;
+    text-align: center;
+    margin-top:1rem;
+    margin-left:2%;
+}
+.education__image>img{
+    margin-top:1.2rem;
+    width:75%;
+}
+.education__year{
+  font-size: 17px;
+  font-weight: bolder;
+  width:70%;
+    margin-left:5%;
+    text-align: left;
+    margin-top:4%;
+
+}
+.education__learns{
+    font-weight:bold;
+    color:white;
+    font-size:28px;
+    width:100%;
+    margin-left:5%;
+    text-align: left;
+}
+
+ .education__school{
+     color:rgb(216, 211, 211);
+     font-weight:bold;
+     font-size:20px;
+     width:90%;
+    margin-left:5%;
+    text-align: left;
+ }
+
+ @media screen and (max-width:840px){
+     .education__container{
+        width:100%;
+     }
+     .education{
+         width:100%;
+         height:40vh;
+     }
+     .after__grid{
+         width:90%;
+     }
+ }
+ 
+
+ @media screen and (max-width:400px){
+     .education__container{
+         top:100rem;
+         background:var(--color-bg2);
+         margin-top: 0rem;
+         margin-left:0rem;   
+     }
+     .education__learns{
+         font-size:21px;
+     }
+     .education__school{
+         font-size:17px;
+     }
+     .after__grid{
+         width:100%;
+         height:100px;
+     }
+     .education__image{
+         width:15%;
+     }
+     .education{
+         height:150vh;
+     }
+     
+ }
