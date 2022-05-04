@@ -84,7 +84,7 @@ width:100%;
 
  @media screen and (max-width:400px){
      .education__container{
-         top:100rem;
+         top:107rem;
          background:var(--color-bg2);
          margin-top: 0rem;
          margin-left:0rem;   
@@ -103,7 +103,7 @@ width:100%;
          width:15%;
      }
      .education{
-         height:150vh;
+         height:170vh;
      }
      
  }
