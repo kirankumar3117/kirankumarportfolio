@@ -84,7 +84,7 @@ width:100%;
 
  @media screen and (max-width:400px){
      .education__container{
-         top:107rem;
+         top:110rem;
          background:var(--color-bg2);
          margin-top: 0rem;
          margin-left:0rem;   
