@@ -95,7 +95,7 @@
     
 }
 
-@media screen and (max-width:420px){
+@media screen and (max-width:410px){
     .about__top{
         margin-top:29rem;
     }
@@ -149,7 +149,7 @@
 
     } 
     .whoiam{
-        margin-top:4rem;
+        margin-top:6rem;
        
     }
     /* .whoiam{
