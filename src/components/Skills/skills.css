@@ -68,7 +68,11 @@
         grid-template-columns: repeat(3,1fr);
         grid-gap:11%;
         margin-top:5%;
-        margin-left: 3%;
+        margin-left: 6.5%;
         margin-top: 5%;
+    }
+    .skills__set>div{
+        width:90px;height:90px;
+        line-height: 8rem;
     }
 }
