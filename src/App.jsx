@@ -14,6 +14,9 @@ function App() {
       <About/>
       <Education/>
       <Skills/>
+      {/* <About/>
+      <Education/>
+      <Skills/> */}
     </div>
   );
 }

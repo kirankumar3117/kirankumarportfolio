@@ -1,4 +1,4 @@
- .education {
+ /* .education {
 background: var(--color-bg2);
 height:115vh;
 margin-top:-2rem;
@@ -17,18 +17,61 @@ width:100%;
  font-weight: bold;
  color:var(--color-bg1);
  text-align:left;
- }
+ }*/
 
 .after__grid{
-    width:60%;
+    width:100%;
     height:120px;
    margin-top:1rem;
    display: flex;
    color:var(--color-bg1);
-   background:rgba(211, 149, 149, 0.4);
+ 
    border-radius: 0.6rem;;
 }
 .education__image{
+    width:12%;
+    height:70%;
+    background:var(--color-bg1);
+    border-radius: 50%;
+    text-align: center;
+    margin-top:1rem;
+    margin-left:2%;
+}
+.education__image>img{
+    margin-top:1.2rem;
+    width:75%;
+    background:var(--color-bg1)
+}
+.education__year{
+    font-size: 17px;
+    font-weight: bolder;
+    width:70%;
+      margin-left:5%;
+      text-align: left;
+      margin-top:4%;
+    
+  
+  }
+  .education__learns{
+    font-weight:bold;
+    color:white;
+    font-size:28px;
+    width:100%;
+    margin-left:5%;
+    text-align: left;
+    
+}
+.education__school{
+    color:rgb(216, 211, 211);
+    font-weight:bold;
+    font-size:20px;
+    width:90%;
+   margin-left:5%;
+   text-align: left;
+  
+}
+
+/*.education__image{
     width:12%;
     height:70%;
     background:var(--color-bg1);
@@ -106,4 +149,66 @@ width:100%;
          height:170vh;
      }
      
+ } */
+
+ #education{
+     width:100%;
+     height:60vh;
  }
+ .education__container{
+     width:50%;
+    margin-left:8%;
+    margin-top:5%;
+ }
+ .education__top{
+     font-size:35px;
+     color:var(--color-bg1);
+     font-weight: bold;
+ }
+
+
+
+ @media screen and (max-width:1000px){
+     #education{
+         margin-top:-45%;
+     }
+     .education__container{
+        width:90%
+    }
+ }
+
+ @media screen and (max-width:600px){
+     .edu__line{
+         width:100%;
+         height:0.4px;
+         background:rgb(161, 158, 158);
+     }
+     .education__container{
+         margin-top:10%;
+     }
+ }
+@media screen and (max-width:420px){
+    #education{
+        margin-top:-2%;
+
+    }
+    .education__container{
+        margin-left:1%;
+        width:97%;
+    }
+    .education__learns{
+        font-size:21px;
+    }
+    .education__school{
+        font-size:17px;
+    }
+     .education__image{
+         width:15%;
+     }
+     .after__grid{
+        width:100%;
+        height:100px;
+    }
+}
+
+

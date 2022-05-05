@@ -20,23 +20,24 @@ import "aos/dist/aos.css"
 const Skils = () => {
   return (
     <div id="skills">
+      <div className="skills__line"></div>
       <div className='skills__container'>
-        <div clasName="skills__name"></div>
+        <div className="skills__name">Skills</div>
         <div className="skills__set">
          
          
-         <div data-aos="fade-up"> <AiFillHtml5 size="100px" background="blue"/></div>
-         <div data-aos="fade-up"> <DiCss3 size="100px" background="blue"/></div>
-         <div data-aos="fade-up"> <IoLogoJavascript size="100px" background="blue"/></div>
-         <div data-aos="fade-up"> <FaReact size="100px" background="blue"/></div>
-         <div data-aos="fade-up"> <DiMongodb size="100px" background="blue"/></div>
-         <div data-aos="fade-up"> <SiExpress size="100px" background="blue"/></div>
-         <div data-aos="fade-up"> <DiNodejsSmall size="100px" background="blue"/></div>
-         <div data-aos="fade-up"> <SiBlender size="100px" background="blue"/></div>
-         <div data-aos="fade-up"> <SiHeroku size="100px" background="blue"/></div>
-         <div data-aos="fade-up"> <SiPostman size="100px" background="blue"/></div>
-         <div data-aos="fade-up"> <DiGit size="100px" background="blue"/></div>
-         <div data-aos="fade-up"> <SiVercel size="100px" background="blue"/></div>
+         <div data-aos="fade-up"> <AiFillHtml5 size="60" background="blue"/></div>
+         <div data-aos="fade-up"> <DiCss3 size="60" background="blue"/></div>
+         <div data-aos="fade-up"> <IoLogoJavascript size="60" background="blue"/></div>
+         <div data-aos="fade-up"> <FaReact size="60" background="blue"/></div>
+         <div data-aos="fade-up"> <DiMongodb size="60" background="blue"/></div>
+         <div data-aos="fade-up"> <SiExpress size="60" background="blue"/></div>
+         <div data-aos="fade-up"> <DiNodejsSmall size="60" background="blue"/></div>
+         <div data-aos="fade-up"> <SiBlender size="60" background="blue"/></div>
+         <div data-aos="fade-up"> <SiHeroku size="60" background="blue"/></div>
+         <div data-aos="fade-up"> <SiPostman size="60" background="blue"/></div>
+         <div data-aos="fade-up"> <DiGit size="60" background="blue"/></div>
+         <div data-aos="fade-up"> <SiVercel size="60" background="blue"/></div>
         
 
         </div>
