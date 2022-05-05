@@ -1,0 +1,7 @@
+.skills__set{
+    background: var(--color-bg2);
+}
+.skills__set>div{
+    width: 120px;height:120px;
+    background: var(--color-bg1);
+}

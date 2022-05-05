@@ -1,13 +1,13 @@
  .education {
 background: var(--color-bg2);
-height:80vh;
+height:115vh;
 margin-top:-2rem;
 width:100%;
 }
 
 .education__container{
     width:100%;
-    margin-left:5%;
+   
     position: absolute;
     top:86rem;
 
