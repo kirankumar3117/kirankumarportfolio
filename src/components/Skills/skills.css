@@ -45,7 +45,7 @@
         height:70vh;
     }
     .skills__set{
-        width:60%;
+        width:56%;
         display: grid;
         grid-template-columns: repeat(4,1fr);
         grid-gap:11%;
@@ -57,7 +57,7 @@
 
 @media screen and (max-width:420px) {
     #skills{
-        margin-top:5%;
+        margin-top:4%;
     }
     #skills{
         height:90vh;
@@ -68,7 +68,7 @@
         grid-template-columns: repeat(3,1fr);
         grid-gap:11%;
         margin-top:5%;
-        margin-left: 6.5%;
+        margin-left: 6%;
         margin-top: 5%;
     }
     .skills__set>div{
