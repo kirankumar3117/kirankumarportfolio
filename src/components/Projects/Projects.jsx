@@ -27,7 +27,7 @@ const Projects = () => {
                 <a href="https://github.com/kirankumar3117/snapdeal-unit4" ></a>
                </div>
               <div className="project__discription">
-              <p>The snapdeal clone website , a collaborative project.</p>
+              <p>Mainly focused on backend part for the minimul user flow through server.</p>
               <ul>
                   <li>Used The rest Api</li>
                   <li>An accurate ui design</li>
@@ -48,26 +48,26 @@ const Projects = () => {
           {/*  shopbop project */}
         <div data-aos="fade-up">
           <div  className='project__return' >
-            <div className="projects__name">Snapdeal</div>
+            <div className="projects__name">Shopbop</div>
 
             {/* /*used this website ===== https://ezgif.com/maker and postimage ====to amke gif anime lik below link*/ }
-            <img src="https://i.postimg.cc/L6HwVG3x/snapgif.gif" alt="hello" className="project__image"/>
+            <img src="https://i.postimg.cc/4xGjKNJd/shopbop.gif" alt="shopbop" className="project__image"/>
             <div className="project__footer">
-              <div>
-                <a href="https://github.com/kirankumar3117/snapdeal-unit4" ></a>
-               </div>
+              {/* <div>
+                <a href="https://github.com/kirankumar3117/shopbop" ></a>
+               </div> */}
               <div className="project__discription">
-              <p>The snapdeal clone website , a collaborative project.</p>
+              <p>Focused on UI Design and Effectively used the local storage.</p>
               <ul>
-                  <li>Used The rest Api</li>
+                  <li>SignUp and Login Using Localstorage</li>
                   <li>An accurate ui design</li>
-                  <li>Api deployment on heroku</li>
-                  <li>ES6 funactinalities</li>
+                  <li>Soring methods</li>
+                  <li>Different page sections</li>
               </ul>
                </div>
             <div className="project__a">
-              <a href= "https://friendly-sable-65643a.netlify.app/" target="_blank"><SiVercel className="project__vercel a"/></a>
-                <a href="https://github.com/kirankumar3117/snapdeal-unit4" target="_blank"><BiGitRepoForked className="project__repo a"/></a>
+              <a href= "https://dynamic-florentine-94b127.netlify.app/" target="_blank"><SiVercel className="project__vercel a"/></a>
+                <a href="https://github.com/kirankumar3117/shopbop" target="_blank"><BiGitRepoForked className="project__repo a"/></a>
                 </div>
                
             </div>
@@ -76,6 +76,7 @@ const Projects = () => {
         
       </div>
       </div>
+      <div className="project__view">View more-{`>`}</div>
     </div>
   )
 }

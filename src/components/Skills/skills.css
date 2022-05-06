@@ -63,7 +63,7 @@
         height:90vh;
     }
     .skills__set{
-        width:60%;
+        width:50%;
         display: grid;
         grid-template-columns: repeat(3,1fr);
         grid-gap:11%;
