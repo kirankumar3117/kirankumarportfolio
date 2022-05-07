@@ -95,7 +95,7 @@ display:flex;
     width:70%;
     height:300px;
     margin-left:15%;
-    margin-top:10%;
+    margin-top:7%;
     }
     
 .c__bottom{
@@ -116,9 +116,74 @@ display:flex;
         margin-top:-0%;
     }
 
+    /*-------form----------*/
+
+    .contact__form{
+        width:40%;
+        margin-left:16%;
+        margin-top:4%;
+    }
+    form>input{
+        width:100%;
+        height:40px;
+        margin-top:2%;
+        border:2px solid var(--color-bg1);
+        background:transparent;
+        color:rgb(187, 181, 181);
+        font-size:20px;
+        border-radius:8px;
+
+    }
+    form>input:nth-child(3){
+        height:120px;
+        
+    }
+    form>input:nth-child(4){
+        width:30%;
+        margin-top:5%;
+        background: var(--color-bg1);
+        color:var(--color-bg2);
+        font-weight:bold;
+    }
+    form>input:nth-child(4):hover{
+        cursor:pointer;
+    }
+
+    .contact__socials{
+        width:100%;
+        height:50vh;
+        background:var(--color-bg1);
+        text-align:center;
+
+    }
+    .contact__footersocials{
+        font-size:30px;
+        margin-top: 7%;
+        background:var(--color-bg1);
+        color:black;
+       
+    }
+    .contact__socials>a:nth-child(2){
+        margin-left:8%;
+    }
+    .contact__socials>a:nth-child(3){
+        margin-left:8%;
+    }
+    .contact__socials>a:nth-child(4){
+        margin-left:8%;
+    }
+    
+    .contact__socials>a{
+        background:transparent;
+    }
+
     @media screen and (max-width:1024px){
         #contact{
             margin-top:170%;
+        }
+        .contact__form{
+            width:80%;
+          margin-left:10%;
         }
     }
     @media screen and (max-width:420px){
@@ -131,5 +196,14 @@ display:flex;
         .c__bottom{
             margin-left:-5%;
         }
+        .contact__form{
+            width:80%;
+          margin-left:10%;
+        }
+       
+        
+       
        
     }
+
+

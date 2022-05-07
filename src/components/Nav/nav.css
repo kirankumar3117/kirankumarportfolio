@@ -30,7 +30,15 @@ nav a:hover {
 nav a.active {
     background: var(--color-bg1);
     color: white;
+    
 }
 a:hover{
     background: rgba(226, 219, 219, 0.3)
+}
+
+
+
+.nav__socials{
+    background:transparent;
+    color:black;
 }

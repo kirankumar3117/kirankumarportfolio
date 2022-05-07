@@ -6,7 +6,8 @@ import Header from './components/Header/Header';
 import Nav from './components/Nav/Nav'
 import Projects from './components/Projects/Projects';
 import Skills from './components/Skills/Skils';
-import Contact from "./components/Contact/Contact"
+import Contact from "./components/Contact/Contact";
+// import Followme from "./Followme/Followme"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Skills/>
       <Projects/>
       <Contact/>
+      {/* <Followme/> */}
       {/* <About/>
       <Education/>
       <Skills/> */}
