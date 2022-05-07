@@ -17,7 +17,7 @@ function App() {
       <Education/>
       <Skills/>
       <Projects/>
-      {/* <Contact/> */}
+      <Contact/>
       {/* <About/>
       <Education/>
       <Skills/> */}
