@@ -185,6 +185,9 @@ display:flex;
             width:80%;
           margin-left:10%;
         }
+        .contact__socials{
+            height:30vh;
+        }
     }
     @media screen and (max-width:420px){
         #contact{
@@ -199,6 +202,10 @@ display:flex;
         .contact__form{
             width:80%;
           margin-left:10%;
+          
+        }
+        .contact__socials{
+            height:30vh;
         }
        
         
