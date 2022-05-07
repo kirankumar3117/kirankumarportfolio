@@ -177,7 +177,7 @@
 
 
 #about{
-   height:95vh;
+   height:100vh;
   overflow: hidden;
   margin-top:5%;
  
@@ -189,7 +189,7 @@
     overflow:hidden;
 }
 .about__content1{
-    width:40%;
+    width:45%;
     margin-top:11%;
     margin-left:10%;
     text-align: left;
@@ -221,7 +221,8 @@
 .whoiampdiv{
     font-family: sans-serif;
     color:rgb(218, 210, 210);
-    width:100%;
+    width:97%;
+    height:max-content;
 }
 .myeditedimg{
     margin-left:-15%;
@@ -272,6 +273,8 @@
     }
     .about__content1{
         width:100%;
+        margin-left:3%;
+        height:max-content;
         
     }
     .about__content2{
@@ -293,10 +296,12 @@
 @media screen and (max-width:400px){
     .about__content{
         display: grid;
-      height:fit-content
+      height:fit-content;
+      width:95%;
     }
     .about__content1{
         width:100%;
+        margin-left:5%;
         
     }
     .about__content2{
@@ -312,6 +317,9 @@
     }
     .about__top{
         margin-top:60%;
+    }
+    .whoiampdiv{
+        height:20%;
     }
 }
 
