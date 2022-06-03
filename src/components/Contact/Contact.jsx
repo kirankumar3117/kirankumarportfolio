@@ -3,8 +3,11 @@ import "./contact.css"
 import {SiGmail} from "react-icons/si"
 import {ImWhatsapp} from "react-icons/im"
 import {GoLocation} from "react-icons/go"
-import {AiFillGithub,AiFillLinkedin,AiFillCopyrightCircle} from "react-icons/ai"
+import {AiFillGithub,AiFillLinkedin} from "react-icons/ai"
 import {BsInstagram,BsMedium} from "react-icons/bs"
+import Allprojects from '../allprojects/Allprojects'
+import {BrowserRouter as Router,Route,
+  Redirect,Switch} from 'react-router-dom';
 
 
 
@@ -15,7 +18,11 @@ const Contact = () => {
   }
   return (
     <div id="contact">
-
+    <button className="viewmore" onClick={()=>{
+        
+        
+        
+      }}>View More </button>
     <div className="contact__line"></div>
 
     <div className="contact__name">Contact</div>
@@ -54,10 +61,10 @@ const Contact = () => {
 
       <div className='contact__socials'>
 
-        <a href="https://github.com/kirankumar3117" target="_blank"><AiFillGithub className="contact__footersocials"/></a>
-        <a href="https://www.linkedin.com/in/kirankumar3117/" target="_blank"><AiFillLinkedin className="contact__footersocials"/></a>
-        <a href="https://www.instagram.com/ch.kirankumar311/" target="_blank"><BsInstagram className="contact__footersocials"/></a>
-        <a href="https://medium.com/@ch.kirankumar311" target="_blank"><BsMedium className="contact__footersocials"/></a>
+        <a href="https://github.com/kirankumar3117" target="__blank"><AiFillGithub className="contact__footersocials"/></a>
+        <a href="https://www.linkedin.com/in/kirankumar3117/" target="__blank"><AiFillLinkedin className="contact__footersocials"/></a>
+        <a href="https://www.instagram.com/ch.kirankumar311/" target="__blank"><BsInstagram className="contact__footersocials"/></a>
+        <a href="https://medium.com/@ch.kirankumar311" target="__blank"><BsMedium className="contact__footersocials"/></a>
       {/* <AiFillCopyrightCircle className="copyrights"/> */}
 
       </div>

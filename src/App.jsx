@@ -7,6 +7,7 @@ import Nav from './components/Nav/Nav'
 import Projects from './components/Projects/Projects';
 import Skills from './components/Skills/Skils';
 import Contact from "./components/Contact/Contact";
+import Allprojects from './components/allprojects/Allprojects';
 // import Followme from "./Followme/Followme"
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Skills/>
       <Projects/>
       <Contact/>
+      {/* <Allprojects/> */}
       {/* <Followme/> */}
       {/* <About/>
       <Education/>

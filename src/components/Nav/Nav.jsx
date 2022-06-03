@@ -3,10 +3,12 @@ import {useState} from "react";
 import {SiAboutdotme} from "react-icons/si";
 
 import "./nav.css";
-import {AiOutlineHome} from "react-icons/ai";
+import {AiOutlineHome,AiOutlineFundProjectionScreen} from "react-icons/ai";
 import {GiSkills} from "react-icons/gi";
 import {GoProject} from "react-icons/go";
 import {GrContact} from "react-icons/gr";
+import {RiContactsFill} from "react-icons/ri";
+import {ImTree} from "react-icons/im";
 const Nav = () => {
   const [activenav, setactivenav] = useState("#")
   return (
@@ -20,17 +22,17 @@ const Nav = () => {
         <a href="#about"  onClick={() =>{
           setactivenav("#about")
         }} className={activenav === "#about" ? "active":""}>
-        <SiAboutdotme className="nav__socials"/>
+       <RiContactsFill className="nav__socials"/>
         </a>
         <a href="#skills" onClick={() =>{
           setactivenav("#skills")
         }} className={activenav === "#skills" ? "active":""}>
-          <GiSkills className="nav__socials"/>
+          <ImTree className="nav__socials"/>
         </a>
         <a href="#projects" onClick={() =>{
           setactivenav("#projects")
         }} className={activenav === "#projects" ? "active":""}>
-         <GoProject className="nav__socials"/>
+         <AiOutlineFundProjectionScreen className="nav__socials"/>
         </a>
         <a href="#contact" onClick={() =>{
           setactivenav("#contact")

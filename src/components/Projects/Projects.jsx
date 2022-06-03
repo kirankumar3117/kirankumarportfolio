@@ -36,7 +36,7 @@ const Projects = () => {
               </ul>
                </div>
             <div className="project__a">
-              <a href= "https://friendly-sable-65643a.netlify.app/" target="_blank"><SiVercel className="project__vercel a"/></a>
+              <a href= "https://friendly-sable-65643a.netlify.app/" target="_blank"  className="project__vercel a">Go Live</a>
                 <a href="https://github.com/kirankumar3117/snapdeal-unit4" target="_blank"><BiGitRepoForked className="project__repo a"/></a>
                 </div>
                
@@ -66,7 +66,7 @@ const Projects = () => {
               </ul>
                </div>
             <div className="project__a">
-              <a href= "https://dynamic-florentine-94b127.netlify.app/" target="_blank"><SiVercel className="project__vercel a"/></a>
+              <a href= "https://dynamic-florentine-94b127.netlify.app/" target="_blank"  className="project__vercel a">Go Live</a>
                 <a href="https://github.com/kirankumar3117/shopbop" target="_blank"><BiGitRepoForked className="project__repo a"/></a>
                 </div>
                
@@ -76,7 +76,7 @@ const Projects = () => {
         
       </div>
       </div>
-      <div className="project__view">View more-{`>`}</div>
+     
     </div>
   )
 }

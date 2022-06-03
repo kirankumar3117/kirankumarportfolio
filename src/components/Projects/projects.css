@@ -1,17 +1,20 @@
 #projects{
     width:98%;
+  
    
     margin-top:18%;
+  
    
 }
 .projects__line{
-    width:90%;
+    width:98%;
     height:0.4px;
     background:rgb(141, 137, 137);
 }
 @media screen and (max-width:420px){
    #projects{
        width:100%;
+     
        margin-left:0px;
    }
 }
@@ -77,6 +80,7 @@
 .project__vercel{
    position: absolute;
    left:2.5rem;
+   font-size: 20px;
    top:1rem;
    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, var(--color-bg1) 0px -3px 5px;
 }
@@ -113,10 +117,7 @@
     .project__repo{
         left:25rem;
     }
-    .project__view{
-        position: absolute;
-        top:460%;
-    }
+   
 }
 @media screen and (max-width:600px){
     .projects_sets{
@@ -142,19 +143,4 @@
         height:520px;
     }
 }
-
-.project__view{
-  
-   width:120px;
-   height:45px;
-   line-height: 3rem;
-    background:var(--color-bg1);
-    color:rgb(177, 171, 171);
-    font-weight:bold;
-    font-family:sans-serif;
-    border-radius:1.7rem;
-    text-align: center;
-    visibility: hidden;
-}
-
 

@@ -273,7 +273,7 @@
 .header1{
     background: var(--color-bg1);
     width:32%;
-    height:90vh;
+    height:100vh;
     /* position: absolute; */
     display: flex;
     flex-direction: column;
@@ -310,14 +310,18 @@
 }
 .header__socials{
     background: var(--color-bg1);
+    margin-top:25%;
 }
 .header__socials>a{
     position:relative;
-    background: var(--color-bg1);
+    background: transparent;
     top:70vh;
     left:2rem;
   margin-left:2rem;
 }
+/* .header__socials>a:hover{
+    background: var(--color-bg1);
+} */
 .bi{
     background: transparent;
     color:black; 
@@ -400,7 +404,7 @@
     }
     .header__socials{
       
-        margin-left:-20%;
+        margin-left:-30%;
     }
 }
 
