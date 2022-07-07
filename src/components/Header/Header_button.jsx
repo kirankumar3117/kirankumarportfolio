@@ -1,14 +1,15 @@
 import React from 'react'
-import CV from "../../assets/kiran_resume.pdf"
+import CV from "../../assets/KiranKumar_Resume.pdf"
+import styled from "./Header_buttons.module.css"
 
 const Header_button = () => {
   return (
-    <div class="header__buttons">
+    <div class={styled.header__buttons}>
         <a href={CV} download >
-            <button className="downloadcv">Download CV</button>
+            <button className={styled.downloadcv}>Download CV</button>
         </a>
         <a href="#contact" >
-            <button className="header__contact">Contact</button>
+            <button className={styled.header__contact}>Contact</button>
         </a>
     </div>
   )

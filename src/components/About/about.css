@@ -309,11 +309,12 @@
        
     }
     #about{
-        margin-top:-10%;
+        margin-top:10%;
     }
     .about__line{
         position: absolute;
       top:120%;
+      margin-top:50px;
     }
     .about__top{
         margin-top:60%;
