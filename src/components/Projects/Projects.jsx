@@ -15,6 +15,37 @@ const Projects = () => {
       <div className="project__name">Projects</div>
       <div className="projects__sets">
         
+
+
+    {/* 1mg ata project*/}
+     <div data-aos="fade-up">
+          <div  className='project__return' >
+            <div className="projects__name">1mgtata</div>
+
+            {/* /*used this website ===== https://ezgif.com/maker and postimage ====to amke gif anime lik below link*/ }
+            <img src="https://media.tenor.com/images/fae2f53c37ed325ad232e7536aaf11f8/tenor.gif" alt="hello" className="project__image"/>
+            <div className="project__footer">
+              <div>
+                <a href="https://github.com/kirankumar3117/1mtata_project" ></a>
+               </div>
+              <div className="project__discription">
+              <p>All india access for users through mobile otp .user data stored in server.</p>
+              <ul>
+                  <li>Used The rest Api</li>
+                  <li>Uniq firebase mobile otp authontication</li>
+                  <li>Built in with redux and reactjs</li>
+                  <li>User state management</li>
+              </ul>
+               </div>
+            <div className="project__a">
+              <a href= "https://1mg-gamma.vercel.app/" target="_blank"  className="project__vercel a">Go Live</a>
+                <a href="https://github.com/kirankumar3117/1mtata_project" target="_blank"><BiGitRepoForked className="project__repo a"/></a>
+                </div>
+               
+            </div>
+          </div>
+          </div>
+
       {/* snap deal project */}
         <div data-aos="fade-up">
           <div  className='project__return' >
@@ -27,10 +58,10 @@ const Projects = () => {
                 <a href="https://github.com/kirankumar3117/snapdeal-unit4" ></a>
                </div>
               <div className="project__discription">
-              <p>Mainly focused on backend part for the minimul user flow through server.</p>
+              <p>Mainly focused on front-end ui-design with minimul user flow through server.</p>
               <ul>
-                  <li>Used The rest Api</li>
-                  <li>An accurate ui design</li>
+                  <li>Used localstorage</li>
+                  <li>Authontication & Verfication</li>
                   <li>Api deployment on heroku</li>
                   <li>ES6 funactinalities</li>
               </ul>
@@ -45,34 +76,7 @@ const Projects = () => {
           </div>
 
 
-          {/*  shopbop project */}
-        <div data-aos="fade-up">
-          <div  className='project__return' >
-            <div className="projects__name">Shopbop</div>
-
-            {/* /*used this website ===== https://ezgif.com/maker and postimage ====to amke gif anime lik below link*/ }
-            <img src="https://i.postimg.cc/4xGjKNJd/shopbop.gif" alt="shopbop" className="project__image"/>
-            <div className="project__footer">
-              {/* <div>
-                <a href="https://github.com/kirankumar3117/shopbop" ></a>
-               </div> */}
-              <div className="project__discription">
-              <p>Focused on UI Design and Effectively used the local storage.</p>
-              <ul>
-                  <li>SignUp and Login Using Localstorage</li>
-                  <li>An accurate ui design</li>
-                  <li>Soring methods</li>
-                  <li>Different page sections</li>
-              </ul>
-               </div>
-            <div className="project__a">
-              <a href= "https://dynamic-florentine-94b127.netlify.app/" target="_blank"  className="project__vercel a">Go Live</a>
-                <a href="https://github.com/kirankumar3117/shopbop" target="_blank"><BiGitRepoForked className="project__repo a"/></a>
-                </div>
-               
-            </div>
-          </div>
-          </div>
+        
         
       </div>
       </div>

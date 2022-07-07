@@ -9,17 +9,17 @@ import Skills from './components/Skills/Skils';
 import Contact from "./components/Contact/Contact";
 import Allprojects from './components/allprojects/Allprojects';
 // import Followme from "./Followme/Followme"
+import {Routes,Route} from "react-router-dom"
+import LandingPage from './Pages/LandingPage';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Nav/>
-      <About/>
-      <Education/>
-      <Skills/>
-      <Projects/>
-      <Contact/>
+     
+      <Routes>
+        <Route path={""} element={<LandingPage/>}/>
+        <Route path={"allprojects"} element={<Allprojects/>}/>
+      </Routes>
       {/* <Allprojects/> */}
       {/* <Followme/> */}
       {/* <About/>

@@ -1,0 +1,76 @@
+.allprojects{
+    font-size:26px;
+    font-weight:bold;
+    font-family: sans-serif;
+    color:var(--color-bg1);
+   width:100%;
+   text-align: center;
+    margin-top:2%;
+}
+.projectmain{
+    width:375px;
+  
+    border:5px solid var(--color-bg1);
+    background:rgb(167, 101, 101);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, var(--color-bg1) 0px -3px 5px;
+    border-radius: 10px;
+    color:rgb(184, 179, 179);
+}
+.project_name{
+    background:rgb(167, 101, 101);
+    color:rgb(190, 184, 184);
+    font-weight:bold;
+    font-size:30px;
+    text-align: center;
+}
+.project_image{
+    width:90%;
+    height:170px;
+    margin-left:5%;
+    margin-top:10%;
+}
+.project_description{
+    background:rgb(167, 101, 101);
+    color:var(--color-bg2);
+    font-weight: 600;
+    margin-left:5%;
+    margin-top: 3px;
+}
+.list{
+    background:rgb(167, 101, 101);
+    color:var(--color-bg2);
+    font-weight: 600;
+    margin-left:0%;
+    margin-top: 3px;
+}
+.last{
+    background:rgb(167, 101, 101);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+.last>div{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, var(--color-bg1) 0px -3px 5px;
+    background:rgb(167, 101, 101) ;
+    color:var(--color-bg2);
+    font-weight: bold;
+    font-size:23px;
+    margin-top:5%;
+    cursor: pointer;
+}
+.git{
+    background:rgb(167, 101, 101);
+}
+.container{
+    width:90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left:5%;
+}
+.container>div{
+    margin-top: 5%;
+}
+

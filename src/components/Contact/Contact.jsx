@@ -8,19 +8,26 @@ import {BsInstagram,BsMedium} from "react-icons/bs"
 import Allprojects from '../allprojects/Allprojects'
 import {BrowserRouter as Router,Route,
   Redirect,Switch} from 'react-router-dom';
-
+import {useNavigate} from "react-router-dom"
 
 
 const Contact = () => {
+  const navigate=useNavigate()
   const sendEmail=(event)=>{
     event.preventDefault()
     alert("Message sent")
+  }
+  const handleNavigate=()=>{
+    const win = window.open(`allprojects`, '_blank');
+    if (win != null) {
+       win.focus();
+    }
   }
   return (
     <div id="contact">
     <button className="viewmore" onClick={()=>{
         
-        
+        handleNavigate()
         
       }}>View More </button>
     <div className="contact__line"></div>
