@@ -17,7 +17,7 @@ const Projects = () => {
         
 
 
-    {/* 1mg ata project*/}
+    {/* 1mg tata project*/}
      <div data-aos="fade-up">
           <div  className='project__return' >
             <div className="projects__name">1mgtata</div>

@@ -18,7 +18,15 @@ export const Projects=[
         git:"https://github.com/kirankumar3117/snapdeal-unit4"
     },
     {
-        name:"Sshopbop",
+        name:"Resume Builder",
+        img:"https://media1.tenor.com/images/c413b9070ecca302ddf11eb3a125947e/tenor.gif?itemid=27489918",
+        description:"Students Proposel : Freshers resume builder an easy way to buid resume and change the resume look and the data.",
+        list:["A reactjs application","User a pdf library to generate pdf and to download"],
+        live:"https://resumebuilder-orpin.vercel.app/",
+        git:"https://github.com/kirankumar3117/resumeBuilder/"
+    },
+    {
+        name:"Shopbop",
         img:"https://i.postimg.cc/4xGjKNJd/shopbop.gif",
         description:"Focused on UI Design and Effectively used the local storage.",
         list:["SignUp and Login Using Localstorage","An accurate ui designn","Different page sections"],

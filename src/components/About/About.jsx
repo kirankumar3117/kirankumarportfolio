@@ -19,7 +19,7 @@ const About = () => {
       <div className="about__content1">
         <div className='whoiam'>Who I am</div>
        <p className="whoiamp"> My name's kiran kumar. I've recently completed a skill development course from Masai School with strong background in Full-Stack Web Development, Data Structures And Algorithms.</p>       
-        <div className="whoiampdiv">During The Course I Have Done Countless Of Projects Individualy.and Done Three Collaborative Projects. I spent my leisure hours writing codes and blogs. Right now I'm also trying a hand at mastering the skills i have learned, and I love to learn and explore new arenas.</div>
+        <div className="whoiampdiv">During the course i have done countless of projects individualy.And done three collaborative projects. I spent most of my leisure hours in writing codes and blogs. Right now I'm also trying a hand at mastering the skills that i have learned, and I love to learn and explore new arenas.</div>
 
       </div>
       <div className="about__content2">

@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from "../../assets/KiranKumar_Resume.pdf"
+import CV from "../../assets/KiranKumar.pdf"
 import styled from "./Header_buttons.module.css"
 
 const Header_button = () => {
