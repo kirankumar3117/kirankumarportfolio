@@ -13,10 +13,9 @@ const Typer = () => {
         startDelay={3000}
         cursorColor="transparent"
         multiText={[
-            'Full-Stack Web Developer',
-            'MERN Stack Developer',
-            'Open Source Coder',
-            'Content Writer',
+            'Reactjs & Next Developer',
+            'Vue & Nuxtjs Developer',
+            'MERN & MEVN Stack Developer',
             'Full-Stack Web Developer',
         ]}
         multiTextDelay={1000}

@@ -20,26 +20,26 @@ const Projects = () => {
     {/* 1mg tata project*/}
      <div data-aos="fade-up">
           <div  className='project__return' >
-            <div className="projects__name">1mgtata</div>
+            <div className="projects__name">Nova Gas (Ghana)</div>
 
             {/* /*used this website ===== https://ezgif.com/maker and postimage ====to amke gif anime lik below link*/ }
-            <img src="https://media.tenor.com/images/fae2f53c37ed325ad232e7536aaf11f8/tenor.gif" alt="hello" className="project__image"/>
+            <img src="https://s6.ezgif.com/tmp/ezgif-6-7681d9f5f0.gif" alt="hello" className="project__image"/>
             <div className="project__footer">
               <div>
                 <a href="https://github.com/kirankumar3117/1mtata_project" ></a>
                </div>
               <div className="project__discription">
-              <p>All india access for users through mobile otp .user data stored in server.</p>
+              <p>Responsible for ui design.</p>
               <ul>
-                  <li>Used The rest Api</li>
-                  <li>Uniq firebase mobile otp authontication</li>
-                  <li>Built in with redux and reactjs</li>
-                  <li>User state management</li>
+                  <li>Api integration</li>
+                  <li>Project structure design</li>
+                  <li>Component design and state management</li>
+                  <li>Secure authontications</li>
               </ul>
                </div>
             <div className="project__a">
-              <a href= "https://1mg-gamma.vercel.app/" target="_blank"  className="project__vercel a">Go Live</a>
-                <a href="https://github.com/kirankumar3117/1mtata_project" target="_blank"><BiGitRepoForked className="project__repo a"/></a>
+              {/* <a href= "https://1mg-gamma.vercel.app/" target="_blank"  className="project__vercel a">Go Live</a> */}
+                {/* <a href="https://github.com/kirankumar3117/1mtata_project" target="_blank"><BiGitRepoForked className="project__repo a"/></a> */}
                 </div>
                
             </div>

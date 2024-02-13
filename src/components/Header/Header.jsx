@@ -18,7 +18,7 @@ const Header = () => {
     <div className="header">
         <div className="header1">
         <div class="header1_name"> 
-                <img src={name}  className='name'/>
+                {/* <img src={name}  className='name'/> */}
             </div>
             <img src={ME} className="me"/>
            
@@ -53,10 +53,7 @@ const Header = () => {
             <div className="header2__container">
                 <div id="typer"><Typer/></div>
                 <h2 className="header2_name">Kiran Kumar</h2>
-                <p className="header2_p">Dedicated and detail-oriented aspiring full-stack developer
-                    with specialization in MERN stack Development. Self-motivated and curious, with
-                    a keen interest in building user-friendly products. Looking forward to honing my
-                    skills in a challenging work environment.</p> 
+                <p className="header2_p">As a seasoned Full Stack Developer specializing in ReactJS, Next.js, VueJS, and Nuxt.js, I excel in crafting captivating and responsive user interfaces. With a keen eye for design and a passion for user-centric development, I seamlessly blend creativity with functionality to deliver immersive web experiences. My expertise extends to dynamic interface development, ensuring optimal performance and a seamless user journey. I bring a unique blend of technical acumen and design finesse to elevate your digital presence.</p> 
                     <Header_button/>
             </div>
            

@@ -37,7 +37,7 @@ const Contact = () => {
 
     <div className="contact__form">
 
-    <div className="form">
+    {/* <div className="form">
       <form action="" onSubmit={sendEmail
       
       }>
@@ -46,7 +46,7 @@ const Contact = () => {
         <input type="text" placeholder='Please write something...' required/>
        <input type="submit" value="Send"/  >
       </form>
-    </div>
+    </div> */}
 
     </div>
 

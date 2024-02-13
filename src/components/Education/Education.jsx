@@ -14,7 +14,7 @@ const Education = () => {
     <div id="education">
        <div className="edu__line"></div>
       <div className="education__container">
-     <div className="education__top">Education</div>
+     <div className="education__top">Work experience</div>
       <div className="education__grid">{DATA.map(e=>{
         return (<div className="after__grid" data-aos="fade-up">
           <div className="education__image"><img src="https://dev-portfolio-template.netlify.app/static/media/eduImgWhite.ae822784.svg"/></div>

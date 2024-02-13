@@ -18,8 +18,8 @@ const About = () => {
  <div className="about__content">
       <div className="about__content1">
         <div className='whoiam'>Who I am</div>
-       <p className="whoiamp"> My name's kiran kumar. I've recently completed a skill development course from Masai School with strong background in Full-Stack Web Development, Data Structures And Algorithms.</p>       
-        <div className="whoiampdiv">During the course i have done countless of projects individualy.And done three collaborative projects. I spent most of my leisure hours in writing codes and blogs. Right now I'm also trying a hand at mastering the skills that i have learned, and I love to learn and explore new arenas.</div>
+       <p className="whoiamp"> I hold a degree in Mechanical Engineering, but my fervor for programming and technology has led me to dedicate the past 3.5 years to mastering diverse tech stacks.</p>       
+        <div className="whoiampdiv">Transitioning from a mechanical background, I've honed my skills in various technologies, driven by curiosity and a desire for innovation. Eager to leverage my cross-disciplinary expertise in programming, I bring a unique perspective and a passion for pushing boundaries in the ever-evolving tech landscape.</div>
 
       </div>
       <div className="about__content2">
